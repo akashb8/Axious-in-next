@@ -76,7 +76,7 @@ export default async function Home() {
                     {user?.name}
                   </h3>
                   <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-1">
-                    @{user?.username || user?.name?.split(' ')[0].toLowerCase()}
+                    @{user?.username || user?.name?.split(' ')?.[0]?.toLowerCase()}
                   </p>
                 </div>
               </div>
