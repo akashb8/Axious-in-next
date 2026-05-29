@@ -5,4 +5,5 @@ export interface User {
     title?: string;
     body?: string;
     userId?: number;
+    username?: string;
 }
